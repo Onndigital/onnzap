@@ -250,15 +250,15 @@ app.post('/zdg-media', [
 client.on('message', async msg => {
 
   if (msg.body !== null && msg.body === "1") {
-    msg.reply("Dê vida às suas ideias com nossas artes editáveis + um pacotão de ferramentas poderosas. Você poderá criar designs exclusivos e personalizados para qualquer projeto, transformar suas fotos em obras de arte e criar efeitos incríveis e únicos em suas imagens.");
+    msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
   } 
   
   else if (msg.body !== null && msg.body === "2") {
-    msg.reply("🤑 Não é designer profissional? Não tem problema! Com o Pack Fábrica de Artes, qualquer um pode criar designs incríveis e personalizados \r\n\r\nhttps://packfabricadeartes.com.br/ \r\n\r\n⏱️ Comprando por aqui fica por \r\n\r\n *R$ 29,90*");
+    msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
   }
   
   else if (msg.body !== null && msg.body === "3") {
-    msg.reply("Você Receberá seu acesso à nossa plataforma de membros com mais de 1 Milhão de artes editáveis + 7 Bônus exclusivos + Atualizações semanais, área de vídeo aulas e macetes para você decolar nas suas criações!");
+    msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
   }
   
   //else if (msg.body !== null && msg.body === "4")// {
@@ -272,11 +272,11 @@ client.on('message', async msg => {
  // }
   
   else if (msg.body !== null && msg.body === "4") {
-    msg.reply("Ok:\r\n\r\n🎥 aqui está sua degustação: \r\n\r\n 🎥 https://packfabricadeartes.com.br/amostra");
+    msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
   }
   
   else if (msg.body !== null && msg.body === "5") {
-    msg.reply("Excelente!:\r\n\r\n Compre aqui por apenas *R$ 29,90 ou pelo site:\r\n\r\n🎥 https://packfabricadeartes.com.br");
+    msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
   }
   
   else if (msg.body !== null && msg.body === "7") {
@@ -360,7 +360,7 @@ client.on('message', async msg => {
 	}
 
 	else if (msg.body !== null || msg.body === "0" || msg.type !== 'ciphertext') {
-    msg.reply("Fábrica de disparo \r\n\r\n 😁 Olá, tudo bem? Como vai você? Escolha uma das opções abaixo para iniciarmos a nossa conversa: \r\n\r\n*1*- Sou Designer Profissional. \r\n*2*- Sou iniciante. \r\n*3*- O que vou receber ao adquirir? \r\n*4*- Posso fazer uma degustação?. \r\n*5*- Quero comprar agora.\r\n ");
+    msg.reply("Onncredi \r\n\r\n Para agilizar o seu atendimento responda com o nº da opção desejada.: \r\n\r\n*1*- Governo. \r\n*2*- Prefeitura. \r\n*3*- FGTS \r\n*4*- Exército. \r\n*5*- SIAPE.\r\n ");
 	}
 });
 
