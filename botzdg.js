@@ -246,7 +246,7 @@ app.post('/zdg-media', [
   }
 });
 
-client.on('message', async msg => {
+/*client.on('message', async msg => {
 
   if (msg.body !== null && msg.body === "1") {
     msg.reply("Olá, bem-vindo à ONNCREDI, é um prazer atendê-lo. Para darmos início com seu atendimento, por favor me informe seu nome.");
@@ -362,11 +362,12 @@ client.on('message', async msg => {
     msg.reply("Onncredi \r\n\r\n Para agilizar o seu atendimento responda com o nº da opção desejada.: \r\n\r\n*1*- Governo. \r\n*2*- Prefeitura. \r\n*3*- FGTS \r\n*4*- Exército. \r\n*5*- SIAPE.\r\n ");
 	}
 });
+*/
 
     client.on('message', async msg => {
         var options = {
           'method': 'POST',
-          'url': 'https://onnzap.fabricadeartes.shop/webhook-test/97461a8c-5489-4287-9df5-ce83c02f667a',
+          'url': 'https://seu-webhook.com',
           'headers': {
             'Content-Type': 'application/json'
           },
